@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Weight"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:id="@+id/edtweight"
+        android:inputType="number">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your height(IN FT)"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:id="@+id/edtheight"
+        android:inputType="number">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Height(IN IN)"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:id="@+id/edtheightin"
+        android:inputType="number">
+
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="calculate BMI"
+        android:id="@+id/btnbmi"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="20dp">
+
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:id="@+id/txt"
+        android:textColor="#777373"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+
+
+</LinearLayout>
